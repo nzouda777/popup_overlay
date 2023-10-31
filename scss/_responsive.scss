@@ -1,0 +1,37 @@
+@include media-xl{
+    
+}
+@include mobile-sm {
+
+}
+@include media-md {
+
+}
+@include media-lg{
+}
+
+@include mobile{
+ .bs-teaser-container{
+  .bs-teaser-content{
+    .bs-icon{
+      width: 60px;
+    }
+    .bs-info-wrap{
+      .bs-info{
+        font-size: 13px;
+        line-height: 1.2;
+      }
+    }
+  }
+ }
+}
+
+// // @include media-lg{
+// //     max-width: 960px;
+// // }
+// // @include media-md{
+// //     max-width: 768px;
+// // }
+// // @include mobile{
+// //     max-width: 540px;
+// // }
